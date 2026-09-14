@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2025 Baltimore Area Survey Documentation &amp; Codebook</title>
+  <meta name="description" content="2025 Baltimore Area Survey<br />
+Documentation &amp; Codebook</p>" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2025 Baltimore Area Survey Documentation &amp; Codebook" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2025 Baltimore Area Survey Documentation &amp; Codebook" />
+  
+  
+  
+
+<meta name="author" content="Johns Hopkins University 21st Century Cities Initiative" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+<link rel="next" href="methodology.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="_fmt/style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Baltimore Area Survey 2025</li>
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Overview</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#data"><i class="fa fa-check"></i><b>1.1</b> Data</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#background"><i class="fa fa-check"></i><b>1.2</b> Background</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#themes-and-objectives"><i class="fa fa-check"></i><b>1.3</b> Themes and Objectives</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#key-personnel"><i class="fa fa-check"></i><b>1.4</b> Key Personnel</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="index.html"><a href="index.html#st-century-city-personnel"><i class="fa fa-check"></i><b>1.4.1</b> 21st Century City Personnel</a></li>
+<li class="chapter" data-level="1.4.2" data-path="index.html"><a href="index.html#community-collaboration-committee"><i class="fa fa-check"></i><b>1.4.2</b> Community Collaboration Committee</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="methodology.html"><a href="methodology.html"><i class="fa fa-check"></i><b>2</b> Methodology</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="methodology.html"><a href="methodology.html#population-frame"><i class="fa fa-check"></i><b>2.1</b> Population Frame</a></li>
+<li class="chapter" data-level="2.2" data-path="methodology.html"><a href="methodology.html#sampling-plan"><i class="fa fa-check"></i><b>2.2</b> Sampling Plan</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="methodology.html"><a href="methodology.html#stratification"><i class="fa fa-check"></i><b>2.2.1</b> Stratification</a></li>
+<li class="chapter" data-level="2.2.2" data-path="methodology.html"><a href="methodology.html#oversample"><i class="fa fa-check"></i><b>2.2.2</b> Oversample</a></li>
+<li class="chapter" data-level="2.2.3" data-path="methodology.html"><a href="methodology.html#final-design"><i class="fa fa-check"></i><b>2.2.3</b> Final Design</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="methodology.html"><a href="methodology.html#data-collection"><i class="fa fa-check"></i><b>2.3</b> Data Collection</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="methodology.html"><a href="methodology.html#field-period"><i class="fa fa-check"></i><b>2.3.1</b> Field period</a></li>
+<li class="chapter" data-level="2.3.2" data-path="methodology.html"><a href="methodology.html#mailings"><i class="fa fa-check"></i><b>2.3.2</b> Mailings</a></li>
+<li class="chapter" data-level="2.3.3" data-path="methodology.html"><a href="methodology.html#computer-assisted-personal-interview"><i class="fa fa-check"></i><b>2.3.3</b> Computer-Assisted Personal Interview</a></li>
+<li class="chapter" data-level="2.3.4" data-path="methodology.html"><a href="methodology.html#sec:variations"><i class="fa fa-check"></i><b>2.3.4</b> Survey Variations</a></li>
+<li class="chapter" data-level="2.3.5" data-path="methodology.html"><a href="methodology.html#pen-and-paper-personal-interview"><i class="fa fa-check"></i><b>2.3.5</b> Pen-and-Paper Personal Interview</a></li>
+<li class="chapter" data-level="2.3.6" data-path="methodology.html"><a href="methodology.html#respondent-incentives"><i class="fa fa-check"></i><b>2.3.6</b> Respondent Incentives</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="methodology.html"><a href="methodology.html#response-rate"><i class="fa fa-check"></i><b>2.4</b> Response Rate</a></li>
+<li class="chapter" data-level="2.5" data-path="methodology.html"><a href="methodology.html#weighting"><i class="fa fa-check"></i><b>2.5</b> Weighting</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="methodology.html"><a href="methodology.html#base-weights"><i class="fa fa-check"></i><b>2.5.1</b> Base Weights</a></li>
+<li class="chapter" data-level="2.5.2" data-path="methodology.html"><a href="methodology.html#non-response"><i class="fa fa-check"></i><b>2.5.2</b> Non-Response Adjustments</a></li>
+<li class="chapter" data-level="2.5.3" data-path="methodology.html"><a href="methodology.html#calibration"><i class="fa fa-check"></i><b>2.5.3</b> Calibration Adjustments</a></li>
+<li class="chapter" data-level="2.5.4" data-path="methodology.html"><a href="methodology.html#imputations"><i class="fa fa-check"></i><b>2.5.4</b> Imputations</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="codebook.html"><a href="codebook.html"><i class="fa fa-check"></i><b>3</b> Codebook</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="codebook.html"><a href="codebook.html#neighborhoods"><i class="fa fa-check"></i><b>3.1</b> Neighborhoods</a>
+<ul>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#years-in-neighborhood"><i class="fa fa-check"></i>YEARS IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#blocks-in-neighborhood"><i class="fa fa-check"></i>BLOCKS IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#neighborhood-satisfaction"><i class="fa fa-check"></i>NEIGHBORHOOD SATISFACTION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#neighbors-williingness-to-help"><i class="fa fa-check"></i>NEIGHBORS WILLIINGNESS TO HELP</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#close-knit-neighborhood"><i class="fa fa-check"></i>CLOSE-KNIT NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#trust-in-neighbors"><i class="fa fa-check"></i>TRUST IN NEIGHBORS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#neighbors-do-not-get-along"><i class="fa fa-check"></i>NEIGHBORS DO NOT GET ALONG</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#neighbors-do-not-share-same-values"><i class="fa fa-check"></i>NEIGHBORS DO NOT SHARE SAME VALUES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#neighborhood-is-welcoming"><i class="fa fa-check"></i>NEIGHBORHOOD IS WELCOMING</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#quality-of-public-schools"><i class="fa fa-check"></i>QUALITY OF PUBLIC SCHOOLS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#change-in-public-schools"><i class="fa fa-check"></i>CHANGE IN PUBLIC SCHOOLS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#neighborhood-safety-satisfaction"><i class="fa fa-check"></i>NEIGHBORHOOD SAFETY SATISFACTION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#change-in-feeling-of-safety-in-neighborhood"><i class="fa fa-check"></i>CHANGE IN FEELING OF SAFETY IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#feel-safe-walking-after-dark"><i class="fa fa-check"></i>FEEL SAFE WALKING AFTER DARK</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#worry-about-being-attacked"><i class="fa fa-check"></i>WORRY ABOUT BEING ATTACKED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#worry-about-break-in-at-home"><i class="fa fa-check"></i>WORRY ABOUT BREAK-IN AT HOME</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#youth-crime-in-neighborhood"><i class="fa fa-check"></i>YOUTH CRIME IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#vacant-buildings-in-neighborhood"><i class="fa fa-check"></i>VACANT BUILDINGS IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#police-non-response-in-neighborhood"><i class="fa fa-check"></i>POLICE NON-RESPONSE IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#drug-use-in-neighborhood"><i class="fa fa-check"></i>DRUG USE IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#drug-overdoses-in-neighborhood"><i class="fa fa-check"></i>DRUG OVERDOSES IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#drug-sales-in-neighborhood"><i class="fa fa-check"></i>DRUG SALES IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#satisfaction-with-sanitation-services"><i class="fa fa-check"></i>SATISFACTION WITH SANITATION SERVICES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#satisfaction-with-public-transportation"><i class="fa fa-check"></i>SATISFACTION WITH PUBLIC TRANSPORTATION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#satisfaction-with-policing"><i class="fa fa-check"></i>SATISFACTION WITH POLICING</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#satisfaction-with-public-schools"><i class="fa fa-check"></i>SATISFACTION WITH PUBLIC SCHOOLS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#emergency-service-response-in-neighborhood"><i class="fa fa-check"></i>EMERGENCY SERVICE RESPONSE IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#satisfaction-with-parks"><i class="fa fa-check"></i>SATISFACTION WITH PARKS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#quality-of-parks"><i class="fa fa-check"></i>QUALITY OF PARKS</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="codebook.html"><a href="codebook.html#connectivity"><i class="fa fa-check"></i><b>3.2</b> Connectivity</a>
+<ul>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#general-trust"><i class="fa fa-check"></i>GENERAL TRUST</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#trust-in-local-government"><i class="fa fa-check"></i>TRUST IN LOCAL GOVERNMENT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#trust-in-state-government"><i class="fa fa-check"></i>TRUST IN STATE GOVERNMENT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#trust-in-state-government-1"><i class="fa fa-check"></i>TRUST IN STATE GOVERNMENT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#thought-of-by-government-addressing-overdoses"><i class="fa fa-check"></i>THOUGHT OF BY GOVERNMENT: ADDRESSING OVERDOSES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#find-care-to-overcome-drug-problem"><i class="fa fa-check"></i>FIND CARE TO OVERCOME DRUG PROBLEM</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#quality-of-drug-treatment-facilities"><i class="fa fa-check"></i>QUALITY OF DRUG TREATMENT FACILITIES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-988-telemedicine-treatment"><i class="fa fa-check"></i>USE 988: TELEMEDICINE TREATMENT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-988-mental-health-crisis"><i class="fa fa-check"></i>USE 988: MENTAL HEALTH CRISIS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-988-help-for-a-drug-problem"><i class="fa fa-check"></i>USE 988: HELP FOR A DRUG PROBLEM</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-988-feeling-down-or-depressed"><i class="fa fa-check"></i>USE 988: FEELING DOWN OR DEPRESSED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-988-sleeping-outside"><i class="fa fa-check"></i>USE 988: SLEEPING OUTSIDE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-988-drug-overdose"><i class="fa fa-check"></i>USE 988: DRUG OVERDOSE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-988-talking-or-yelling-to-themselves"><i class="fa fa-check"></i>USE 988: TALKING OR YELLING TO THEMSELVES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-988-talking-or-yelling-to-noone"><i class="fa fa-check"></i>USE 988: TALKING OR YELLING TO NOONE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-988-have-not-heard-of-988"><i class="fa fa-check"></i>USE 988: HAVE NOT HEARD OF 988</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#young-people-committing-crime-in-jurisdiction"><i class="fa fa-check"></i>YOUNG PEOPLE COMMITTING CRIME IN JURISDICTION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#vacant-buildings-in-jurisdiction"><i class="fa fa-check"></i>VACANT BUILDINGS IN JURISDICTION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#police-non-response-in-jurisdiction"><i class="fa fa-check"></i>POLICE NON-RESPONSE IN JURISDICTION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#drug-use-in-jurisdiction"><i class="fa fa-check"></i>DRUG USE IN JURISDICTION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#drug-overdoses-in-jurisdiction"><i class="fa fa-check"></i>DRUG OVERDOSES IN JURISDICTION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#drug-sales-in-neighborhood-1"><i class="fa fa-check"></i>DRUG SALES IN NEIGHBORHOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#anticipated-time-to-rebuild-key-bridge"><i class="fa fa-check"></i>ANTICIPATED TIME TO REBUILD KEY BRIDGE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#anticipated-time-to-rebuild-key-bridge-primed"><i class="fa fa-check"></i>ANTICIPATED TIME TO REBUILD KEY BRIDGE (PRIMED)</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="codebook.html"><a href="codebook.html#health"><i class="fa fa-check"></i><b>3.3</b> Health</a>
+<ul>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#physical-self-rated-health"><i class="fa fa-check"></i>PHYSICAL SELF-RATED HEALTH</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#self-rated-mental-health"><i class="fa fa-check"></i>SELF-RATED MENTAL HEALTH</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#have-a-personal-health-care-provider"><i class="fa fa-check"></i>HAVE A PERSONAL HEALTH CARE PROVIDER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#annual-medical-exam"><i class="fa fa-check"></i>ANNUAL MEDICAL EXAM</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-interrupted-sleep"><i class="fa fa-check"></i>HEAT EFFECT: INTERRUPTED SLEEP</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-unable-to-work"><i class="fa fa-check"></i>HEAT EFFECT: UNABLE TO WORK</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-feeling-tired"><i class="fa fa-check"></i>HEAT EFFECT: FEELING TIRED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-difficulty-breathing"><i class="fa fa-check"></i>HEAT EFFECT: DIFFICULTY BREATHING</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-avoided-physical-activity"><i class="fa fa-check"></i>HEAT EFFECT: AVOIDED PHYSICAL ACTIVITY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-canceled-plans"><i class="fa fa-check"></i>HEAT EFFECT: CANCELED PLANS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-irritability"><i class="fa fa-check"></i>HEAT EFFECT: IRRITABILITY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-dizziness"><i class="fa fa-check"></i>HEAT EFFECT: DIZZINESS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-other-effects"><i class="fa fa-check"></i>HEAT EFFECT: OTHER EFFECTS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-other-effects-specify"><i class="fa fa-check"></i>HEAT EFFECT: OTHER EFFECTS – SPECIFY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#heat-effect-none-mentioned"><i class="fa fa-check"></i>HEAT EFFECT: NONE MENTIONED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-hypertension"><i class="fa fa-check"></i>EVER DIAGNOSED: HYPERTENSION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-high-cholesterol"><i class="fa fa-check"></i>EVER DIAGNOSED: HIGH CHOLESTEROL</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-coronary-heart-disease"><i class="fa fa-check"></i>EVER DIAGNOSED: CORONARY HEART DISEASE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-asthma"><i class="fa fa-check"></i>EVER DIAGNOSED: ASTHMA</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-pre-diabetes"><i class="fa fa-check"></i>EVER DIAGNOSED: PRE-DIABETES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-diabetes"><i class="fa fa-check"></i>EVER DIAGNOSED: DIABETES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-copd-or-other-lung-disease"><i class="fa fa-check"></i>EVER DIAGNOSED: COPD OR OTHER LUNG DISEASE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-depression"><i class="fa fa-check"></i>EVER DIAGNOSED: DEPRESSION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-anxiety"><i class="fa fa-check"></i>EVER DIAGNOSED: ANXIETY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#ever-diagnosed-none-mentioned"><i class="fa fa-check"></i>EVER DIAGNOSED: NONE MENTIONED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#vaccine-effectiveness"><i class="fa fa-check"></i>VACCINE EFFECTIVENESS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#vaccine-requirement-beliefs"><i class="fa fa-check"></i>VACCINE REQUIREMENT BELIEFS</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="codebook.html"><a href="codebook.html#transportation"><i class="fa fa-check"></i><b>3.4</b> Transportation</a>
+<ul>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#transportation-insecurity-reschedule-appointment"><i class="fa fa-check"></i>TRANSPORTATION INSECURITY: RESCHEDULE APPOINTMENT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#transportation-insecurity-skip-going"><i class="fa fa-check"></i>TRANSPORTATION INSECURITY: SKIP GOING</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#transportation-insecurity-not-leave-house"><i class="fa fa-check"></i>TRANSPORTATION INSECURITY: NOT LEAVE HOUSE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#transportation-insecurity-feeling-down"><i class="fa fa-check"></i>TRANSPORTATION INSECURITY: FEELING DOWN</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#transportation-insecurity-inconvenience-others"><i class="fa fa-check"></i>TRANSPORTATION INSECURITY: INCONVENIENCE OTHERS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#transportation-insecurity-relationships-affected"><i class="fa fa-check"></i>TRANSPORTATION INSECURITY: RELATIONSHIPS AFFECTED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#afford-transportation"><i class="fa fa-check"></i>AFFORD TRANSPORTATION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#transportation-impact-on-job-search"><i class="fa fa-check"></i>TRANSPORTATION IMPACT ON JOB SEARCH</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#reliable-vehicle"><i class="fa fa-check"></i>RELIABLE VEHICLE</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="codebook.html"><a href="codebook.html#finances-and-employment"><i class="fa fa-check"></i><b>3.5</b> Finances and Employment</a>
+<ul>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#employment-status"><i class="fa fa-check"></i>EMPLOYMENT STATUS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#employment-sector"><i class="fa fa-check"></i>EMPLOYMENT SECTOR</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#job-search-confidence"><i class="fa fa-check"></i>JOB SEARCH CONFIDENCE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#possibility-of-losing-job"><i class="fa fa-check"></i>POSSIBILITY OF LOSING JOB</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#rich-household-threshold"><i class="fa fa-check"></i>RICH HOUSEHOLD THRESHOLD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#poor-household-threshold"><i class="fa fa-check"></i>POOR HOUSEHOLD THRESHOLD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#baltimore-current-economic-conditions"><i class="fa fa-check"></i>BALTIMORE CURRENT ECONOMIC CONDITIONS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#baltimore-economic-trajectory"><i class="fa fa-check"></i>BALTIMORE ECONOMIC TRAJECTORY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#u.s.-current-economic-conditions"><i class="fa fa-check"></i>U.S. CURRENT ECONOMIC CONDITIONS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#u.s.-economic-trajectory"><i class="fa fa-check"></i>U.S. ECONOMIC TRAJECTORY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#food-insecurity-food-runs-out"><i class="fa fa-check"></i>FOOD INSECURITY: FOOD RUNS OUT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#food-insecurity-no-money-for-food"><i class="fa fa-check"></i>FOOD INSECURITY: NO MONEY FOR FOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#food-insecurity-cant-afford-balanced-meals"><i class="fa fa-check"></i>FOOD INSECURITY: CAN’T AFFORD BALANCED MEALS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#food-insecurity-skipped-meals"><i class="fa fa-check"></i>FOOD INSECURITY: SKIPPED MEALS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#food-insecurity-frequency-of-skipped-meals"><i class="fa fa-check"></i>FOOD INSECURITY: FREQUENCY OF SKIPPED MEALS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#food-insecurity-eat-less"><i class="fa fa-check"></i>FOOD INSECURITY: EAT LESS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#food-insecurity-ever-hungry"><i class="fa fa-check"></i>FOOD INSECURITY: EVER HUNGRY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#medical-cost-affordability"><i class="fa fa-check"></i>MEDICAL COST AFFORDABILITY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#financial-future-food"><i class="fa fa-check"></i>FINANCIAL FUTURE: FOOD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#financial-future-housing"><i class="fa fa-check"></i>FINANCIAL FUTURE: HOUSING</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#financial-future-utilities"><i class="fa fa-check"></i>FINANCIAL FUTURE: UTILITIES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#financial-future-medical"><i class="fa fa-check"></i>FINANCIAL FUTURE: MEDICAL</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#financial-future-transportation"><i class="fa fa-check"></i>FINANCIAL FUTURE: TRANSPORTATION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#housing-insecurity-affordability-concern"><i class="fa fa-check"></i>HOUSING INSECURITY: AFFORDABILITY CONCERN</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#housing-insecurity-payment-difficulty"><i class="fa fa-check"></i>HOUSING INSECURITY: PAYMENT DIFFICULTY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#housing-insecurity-forced-move-concern"><i class="fa fa-check"></i>HOUSING INSECURITY: FORCED MOVE CONCERN</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#utility-payments"><i class="fa fa-check"></i>UTILITY PAYMENTS</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="codebook.html"><a href="codebook.html#environment"><i class="fa fa-check"></i><b>3.6</b> Environment</a>
+<ul>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-concern"><i class="fa fa-check"></i>AIR QUALITY CONCERN</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#live-in-a-watershed"><i class="fa fa-check"></i>LIVE IN A WATERSHED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#live-in-an-ecosystem"><i class="fa fa-check"></i>LIVE IN AN ECOSYSTEM</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-comparison"><i class="fa fa-check"></i>AIR QUALITY COMPARISON</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-smells-badly"><i class="fa fa-check"></i>AIR SMELLS BADLY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#see-smoke"><i class="fa fa-check"></i>SEE SMOKE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#use-a-coal-burning-fireplace-or-stove"><i class="fa fa-check"></i>USE A COAL-BURNING FIREPLACE OR STOVE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-television-news"><i class="fa fa-check"></i>AIR QUALITY ALERTS: TELEVISION NEWS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-radio"><i class="fa fa-check"></i>AIR QUALITY ALERTS: RADIO</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-newspaper"><i class="fa fa-check"></i>AIR QUALITY ALERTS: NEWSPAPER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-news-website"><i class="fa fa-check"></i>AIR QUALITY ALERTS: NEWS WEBSITE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-weather-website"><i class="fa fa-check"></i>AIR QUALITY ALERTS: WEATHER WEBSITE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-other-website"><i class="fa fa-check"></i>AIR QUALITY ALERTS: OTHER WEBSITE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-social-media"><i class="fa fa-check"></i>AIR QUALITY ALERTS: SOCIAL MEDIA</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-weather-phone-app"><i class="fa fa-check"></i>AIR QUALITY ALERTS: WEATHER PHONE APP</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-text-message-from-agency"><i class="fa fa-check"></i>AIR QUALITY ALERTS: TEXT MESSAGE FROM AGENCY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-heard-from-friends-or-family"><i class="fa fa-check"></i>AIR QUALITY ALERTS: HEARD FROM FRIENDS OR FAMILY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-other"><i class="fa fa-check"></i>AIR QUALITY ALERTS: OTHER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#air-quality-alerts-do-not-know"><i class="fa fa-check"></i>AIR QUALITY ALERTS: DO NOT KNOW</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-television"><i class="fa fa-check"></i>ALERT PREFERENCE: TELEVISION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-radio"><i class="fa fa-check"></i>ALERT PREFERENCE: RADIO</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-newspaper"><i class="fa fa-check"></i>ALERT PREFERENCE: NEWSPAPER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-news-website"><i class="fa fa-check"></i>ALERT PREFERENCE: NEWS WEBSITE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-weather-website"><i class="fa fa-check"></i>ALERT PREFERENCE: WEATHER WEBSITE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-other-website"><i class="fa fa-check"></i>ALERT PREFERENCE: OTHER WEBSITE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-social-media"><i class="fa fa-check"></i>ALERT PREFERENCE: SOCIAL MEDIA</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-weather-phone-app"><i class="fa fa-check"></i>ALERT PREFERENCE: WEATHER PHONE APP</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-text-message-from-agency"><i class="fa fa-check"></i>ALERT PREFERENCE: TEXT MESSAGE FROM AGENCY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-heard-from-friends-or-family"><i class="fa fa-check"></i>ALERT PREFERENCE: HEARD FROM FRIENDS OR FAMILY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-other"><i class="fa fa-check"></i>ALERT PREFERENCE: OTHER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#alert-preference-prefer-not-to-receive-alerts"><i class="fa fa-check"></i>ALERT PREFERENCE: PREFER NOT TO RECEIVE ALERTS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-quality-problem-contamination"><i class="fa fa-check"></i>SOIL QUALITY PROBLEM: CONTAMINATION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-quality-problem-growth"><i class="fa fa-check"></i>SOIL QUALITY PROBLEM: GROWTH</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-quality-problem-dust"><i class="fa fa-check"></i>SOIL QUALITY PROBLEM: DUST</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-quality-problem-drainage"><i class="fa fa-check"></i>SOIL QUALITY PROBLEM: DRAINAGE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-quality-problem-too-much-fertilizer"><i class="fa fa-check"></i>SOIL QUALITY PROBLEM: TOO MUCH FERTILIZER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-quality-problem-compacted"><i class="fa fa-check"></i>SOIL QUALITY PROBLEM: COMPACTED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-contaminant-arsenic"><i class="fa fa-check"></i>SOIL CONTAMINANT: ARSENIC</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-contaminant-plastics-or-microplastics"><i class="fa fa-check"></i>SOIL CONTAMINANT: PLASTICS OR MICROPLASTICS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-contaminant-lead"><i class="fa fa-check"></i>SOIL CONTAMINANT: LEAD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-contaminant-household-chemical"><i class="fa fa-check"></i>SOIL CONTAMINANT: HOUSEHOLD CHEMICAL</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-contaminant-pesticides-or-herbicides"><i class="fa fa-check"></i>SOIL CONTAMINANT: PESTICIDES OR HERBICIDES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-contaminant-road-salt-or-vehicle-pollutants"><i class="fa fa-check"></i>SOIL CONTAMINANT: ROAD SALT OR VEHICLE POLLUTANTS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-contaminant-industrial-or-construction-waste"><i class="fa fa-check"></i>SOIL CONTAMINANT: INDUSTRIAL OR CONSTRUCTION WASTE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-is-important-for-providing-a-foundation"><i class="fa fa-check"></i>SOIL IS IMPORTANT FOR: PROVIDING A FOUNDATION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-is-important-for-storing-carbon"><i class="fa fa-check"></i>SOIL IS IMPORTANT FOR: STORING CARBON</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-is-important-for-supporting-plant-growth"><i class="fa fa-check"></i>SOIL IS IMPORTANT FOR: SUPPORTING PLANT GROWTH</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-is-important-for-absorbing-water"><i class="fa fa-check"></i>SOIL IS IMPORTANT FOR: ABSORBING WATER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#soil-is-important-for-absorbing-toxic-substances"><i class="fa fa-check"></i>SOIL IS IMPORTANT FOR: ABSORBING TOXIC SUBSTANCES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#learn-about-growing-grass-with-less-fertilizer"><i class="fa fa-check"></i>LEARN ABOUT: GROWING GRASS WITH LESS FERTILIZER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#learn-about-starting-a-garden"><i class="fa fa-check"></i>LEARN ABOUT: STARTING A GARDEN</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#learn-about-soil-contamination"><i class="fa fa-check"></i>LEARN ABOUT: SOIL CONTAMINATION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#learn-about-improving-drainage"><i class="fa fa-check"></i>LEARN ABOUT: IMPROVING DRAINAGE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#learn-about-soil-health-impacts"><i class="fa fa-check"></i>LEARN ABOUT: SOIL HEALTH IMPACTS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#learn-about-composting"><i class="fa fa-check"></i>LEARN ABOUT: COMPOSTING</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#learn-about-dont-want-to-know-more"><i class="fa fa-check"></i>LEARN ABOUT: DON’T WANT TO KNOW MORE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#water-quality-concern"><i class="fa fa-check"></i>WATER QUALITY CONCERN</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#flood-basement"><i class="fa fa-check"></i>FLOOD: BASEMENT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#flood-space-other-than-basement"><i class="fa fa-check"></i>FLOOD: SPACE OTHER THAN BASEMENT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#flood-driveway"><i class="fa fa-check"></i>FLOOD: DRIVEWAY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#flood-sewage-backed-up"><i class="fa fa-check"></i>FLOOD: SEWAGE BACKED UP</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#flood-sidewalk-on-block"><i class="fa fa-check"></i>FLOOD: SIDEWALK ON BLOCK</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#flood-street-on-block"><i class="fa fa-check"></i>FLOOD: STREET ON BLOCK</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#flood-vehicle-on-block"><i class="fa fa-check"></i>FLOOD: VEHICLE ON BLOCK</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#plant-tree-in-front-of-home"><i class="fa fa-check"></i>PLANT TREE IN FRONT OF HOME</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#interest-in-tree-in-front-of-home"><i class="fa fa-check"></i>INTEREST IN TREE IN FRONT OF HOME</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#no-tree-dont-want-to-maintaine"><i class="fa fa-check"></i>NO TREE: DON’T WANT TO MAINTAINE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#no-tree-cost-of-watering"><i class="fa fa-check"></i>NO TREE: COST OF WATERING</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#no-tree-roots-may-crack-sidewalk-road-or-driveway"><i class="fa fa-check"></i>NO TREE: ROOTS MAY CRACK SIDEWALK, ROAD, OR DRIVEWAY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#no-tree-worried-about-fines"><i class="fa fa-check"></i>NO TREE: WORRIED ABOUT FINES</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#no-tree-physcially-unable-to-care-for-tree"><i class="fa fa-check"></i>NO TREE: PHYSCIALLY UNABLE TO CARE FOR TREE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#no-tree-concern-about-tree-and-crime"><i class="fa fa-check"></i>NO TREE: CONCERN ABOUT TREE AND CRIME</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#no-tree-already-have-enough-trees"><i class="fa fa-check"></i>NO TREE: ALREADY HAVE ENOUGH TREES</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="codebook.html"><a href="codebook.html#demographic-information"><i class="fa fa-check"></i><b>3.7</b> Demographic Information</a>
+<ul>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#home-owner-or-renter"><i class="fa fa-check"></i>HOME OWNER OR RENTER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#housing-payments"><i class="fa fa-check"></i>HOUSING PAYMENTS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#type-air-conditioning-central-air"><i class="fa fa-check"></i>TYPE AIR CONDITIONING: CENTRAL AIR</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#type-air-conditioning-window-unit"><i class="fa fa-check"></i>TYPE AIR CONDITIONING: WINDOW UNIT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#type-air-conditioning-other-type"><i class="fa fa-check"></i>TYPE AIR CONDITIONING: OTHER TYPE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#type-air-conditioning-no-air-conditioning"><i class="fa fa-check"></i>TYPE AIR CONDITIONING: NO AIR CONDITIONING</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#open-windows-in-last-24-hours"><i class="fa fa-check"></i>OPEN WINDOWS IN LAST 24 HOURS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#type-of-interner-service"><i class="fa fa-check"></i>TYPE OF INTERNER SERVICE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#type-of-internet-service-specify"><i class="fa fa-check"></i>TYPE OF INTERNET SERVICE – SPECIFY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#gun-in-home"><i class="fa fa-check"></i>GUN IN HOME</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#gun-in-storage"><i class="fa fa-check"></i>GUN IN STORAGE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#gun-lock"><i class="fa fa-check"></i>GUN LOCK</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#number-of-adults-in-household"><i class="fa fa-check"></i>NUMBER OF ADULTS IN HOUSEHOLD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#other-household-adults-employed"><i class="fa fa-check"></i>OTHER HOUSEHOLD ADULTS EMPLOYED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#children-in-household"><i class="fa fa-check"></i>CHILDREN IN HOUSEHOLD</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#number-of-children-in-household-under-age-5"><i class="fa fa-check"></i>NUMBER OF CHILDREN IN HOUSEHOLD, UNDER AGE 5</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#number-of-children-in-household-ages-5-11"><i class="fa fa-check"></i>NUMBER OF CHILDREN IN HOUSEHOLD, AGES 5-11</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#number-of-children-in-household-ages-12-17"><i class="fa fa-check"></i>NUMBER OF CHILDREN IN HOUSEHOLD, AGES 12-17</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#household-members-with-disability"><i class="fa fa-check"></i>HOUSEHOLD MEMBERS WITH DISABILITY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#educational-attainment"><i class="fa fa-check"></i>EDUCATIONAL ATTAINMENT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#marital-status"><i class="fa fa-check"></i>MARITAL STATUS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#respondents-birth-year"><i class="fa fa-check"></i>RESPONDENT’S BIRTH YEAR</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#age"><i class="fa fa-check"></i>AGE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#gender"><i class="fa fa-check"></i>GENDER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#other-gender-specify"><i class="fa fa-check"></i>OTHER GENDER – SPECIFY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#sexuality"><i class="fa fa-check"></i>SEXUALITY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#reported-hispanic-ethincity"><i class="fa fa-check"></i>REPORTED HISPANIC ETHINCITY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#nativity"><i class="fa fa-check"></i>NATIVITY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#mother-nativity"><i class="fa fa-check"></i>MOTHER NATIVITY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#father-nativity"><i class="fa fa-check"></i>FATHER NATIVITY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#religion"><i class="fa fa-check"></i>RELIGION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#religion-denomination---protestant"><i class="fa fa-check"></i>RELIGION DENOMINATION - PROTESTANT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#religion-protestant-denomination-specify"><i class="fa fa-check"></i>RELIGION – PROTESTANT DENOMINATION – SPECIFY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#religion-jewish-tradition"><i class="fa fa-check"></i>RELIGION – JEWISH TRADITION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#religion-jewish-tradition-specify"><i class="fa fa-check"></i>RELIGION – JEWISH TRADITION – SPECIFY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#religious-attendance"><i class="fa fa-check"></i>RELIGIOUS ATTENDANCE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#highlow-income"><i class="fa fa-check"></i>HIGH/LOW INCOME</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#low-income-level"><i class="fa fa-check"></i>LOW INCOME LEVEL</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#high-income-level"><i class="fa fa-check"></i>HIGH INCOME LEVEL</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#income"><i class="fa fa-check"></i>INCOME</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#received-snap-benefits"><i class="fa fa-check"></i>RECEIVED SNAP BENEFITS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#received-medicaid-or-similar-benefits"><i class="fa fa-check"></i>RECEIVED MEDICAID OR SIMILAR BENEFITS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#received-governmental-housing-benefits"><i class="fa fa-check"></i>RECEIVED GOVERNMENTAL HOUSING BENEFITS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#received-ssi-benefits"><i class="fa fa-check"></i>RECEIVED SSI BENEFITS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#received-ssdi-benefits"><i class="fa fa-check"></i>RECEIVED SSDI BENEFITS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#received-tanf-benefits"><i class="fa fa-check"></i>RECEIVED TANF BENEFITS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#political-ideology"><i class="fa fa-check"></i>POLITICAL IDEOLOGY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#political-party"><i class="fa fa-check"></i>POLITICAL PARTY</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#registered-to-vote"><i class="fa fa-check"></i>REGISTERED TO VOTE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#general-election-2024-voting"><i class="fa fa-check"></i>GENERAL ELECTION 2024 VOTING</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#eligible-to-vote"><i class="fa fa-check"></i>ELIGIBLE TO VOTE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#race-black-white-other-race"><i class="fa fa-check"></i>RACE (BLACK, WHITE, OTHER RACE)</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#race-multiracial-and-race-alone"><i class="fa fa-check"></i>RACE (MULTIRACIAL AND RACE ALONE)</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#raceethnicity-four-category"><i class="fa fa-check"></i>RACE/ETHNICITY (FOUR CATEGORY)</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#raceethnicity-six-category"><i class="fa fa-check"></i>RACE/ETHNICITY (SIX CATEGORY)</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#raceethnicity-indicator-multiracial"><i class="fa fa-check"></i>RACE/ETHNICITY INDICATOR: MULTIRACIAL</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#raceethnicity-indicator-black"><i class="fa fa-check"></i>RACE/ETHNICITY INDICATOR: BLACK</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#raceethnicity-indicator-white"><i class="fa fa-check"></i>RACE/ETHNICITY INDICATOR: WHITE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#raceethnicity-indicator-american-indian"><i class="fa fa-check"></i>RACE/ETHNICITY INDICATOR: AMERICAN INDIAN</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#raceethnicity-indicator-asian"><i class="fa fa-check"></i>RACE/ETHNICITY INDICATOR: ASIAN</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#raceethnicity-indicator-latinx"><i class="fa fa-check"></i>RACE/ETHNICITY INDICATOR: LATINX</a></li>
+</ul></li>
+<li class="chapter" data-level="3.8" data-path="codebook.html"><a href="codebook.html#survey-information"><i class="fa fa-check"></i><b>3.8</b> Survey Information</a>
+<ul>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#unique-identifier"><i class="fa fa-check"></i>UNIQUE IDENTIFIER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#final-sample-weight"><i class="fa fa-check"></i>FINAL SAMPLE WEIGHT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#jurisdiction"><i class="fa fa-check"></i>JURISDICTION</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#jurisdiction-fips-code"><i class="fa fa-check"></i>JURISDICTION FIPS CODE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#community-statistical-area"><i class="fa fa-check"></i>COMMUNITY STATISTICAL AREA</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#month-survey-started"><i class="fa fa-check"></i>MONTH SURVEY STARTED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#day-survey-started"><i class="fa fa-check"></i>DAY SURVEY STARTED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#time-survey-started"><i class="fa fa-check"></i>TIME SURVEY STARTED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#month-survey-completed"><i class="fa fa-check"></i>MONTH SURVEY COMPLETED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#day-survey-completed"><i class="fa fa-check"></i>DAY SURVEY COMPLETED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#time-survey-completed"><i class="fa fa-check"></i>TIME SURVEY COMPLETED</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#richpoor-amount-question-order"><i class="fa fa-check"></i>RICH/POOR AMOUNT QUESTION ORDER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#economic-condition-question-order"><i class="fa fa-check"></i>ECONOMIC CONDITION QUESTION ORDER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#key-bridge-condition"><i class="fa fa-check"></i>KEY BRIDGE CONDITION</a></li>
+</ul></li>
+<li class="chapter" data-level="3.9" data-path="codebook.html"><a href="codebook.html#analysis-variables"><i class="fa fa-check"></i><b>3.9</b> Analysis Variables</a>
+<ul>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#analysis---race"><i class="fa fa-check"></i>ANALYSIS - RACE</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#analysis---household-income"><i class="fa fa-check"></i>ANALYSIS - HOUSEHOLD INCOME</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#analysis---educational-attainment"><i class="fa fa-check"></i>ANALYSIS - EDUCATIONAL ATTAINMENT</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#analysis---gender"><i class="fa fa-check"></i>ANALYSIS - GENDER</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#analysis---age-5-categories"><i class="fa fa-check"></i>ANALYSIS - AGE (5 CATEGORIES)</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#transportation-insecurity-index-score---continuous"><i class="fa fa-check"></i>TRANSPORTATION INSECURITY INDEX SCORE - CONTINUOUS</a></li>
+<li class="chapter" data-level="" data-path="codebook.html"><a href="codebook.html#transportation-insecurity-index-score---categorical"><i class="fa fa-check"></i>TRANSPORTATION INSECURITY INDEX SCORE - CATEGORICAL</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./"><p>2025 Baltimore Area Survey<br />
+Documentation &amp; Codebook</p></a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title"><p>2025 Baltimore Area Survey<br />
+Documentation &amp; Codebook</p></h1>
+<p class="author"><em>Johns Hopkins University 21st Century Cities Initiative</em></p>
+</div>
+<div id="overview" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">1</span> Overview<a href="index.html#overview" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>The 2025 Baltimore Area Survey (BAS) is a survey of a representative sample of adults in Baltimore City and Baltimore County, Maryland.</p>
+<div id="data" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Data<a href="index.html#data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>BAS 2025 data are available for download at <a href="https://github.com/JHUCities/baltimore-area-survey-data/tree/main/data/bas-2025" class="uri">https://github.com/JHUCities/baltimore-area-survey-data/tree/main/data/bas-2025</a>.</p>
+</div>
+<div id="background" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Background<a href="index.html#background" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The BAS is the signature program of the 21st Century Cities Initiative at Johns Hopkins University. Its goal is to develop data that support community needs in the Baltimore area that supports scientific research. The program seeks to survey a sample of residents annually to allow for timely data for community members and researchers.</p>
+<p>Researchers at 21CC and the Community Collaborators Committee (CCC) identify topics in need of investigation to understand the city, its surroundings, and its people. The CCC comprises leaders from community organizations, nonprofits, businesses, and government office. The CCC works with faculty and graduate students to investigate the topics to identify the topics identified through the survey data collected.</p>
+</div>
+<div id="themes-and-objectives" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Themes and Objectives<a href="index.html#themes-and-objectives" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The BAS 2025 is the third wave of the Baltimore Area Survey. The survey is conducted using a repeated cross-sectional design so that the samples are drawn independently from year to year. Some questions were previously asked on prior waves of the BAS while others were new to this survey.</p>
+<dl>
+<dt>Neighborhoods</dt>
+<dd>
+<p>questions about resident perceptions of neighborhoods and conditions in residents’ own neighborhoods including satisfaction, neighborhood problems, social cohesion, and schools</p>
+</dd>
+<dt>Environment</dt>
+<dd>
+<p>questions about air and soil quality, flooding, and questions about managing extreme heat</p>
+</dd>
+<dt>Finance and Economy</dt>
+<dd>
+<p>questions about the state of the US and Baltimore-area economy, job security, costs of daily living, and concerns about future costs</p>
+</dd>
+<dt>Governance</dt>
+<dd>
+<p>questions about trust in different levels of government and satisfaction with government services</p>
+</dd>
+</dl>
+</div>
+<div id="key-personnel" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> Key Personnel<a href="index.html#key-personnel" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="st-century-city-personnel" class="section level3 hasAnchor" number="1.4.1">
+<h3><span class="header-section-number">1.4.1</span> 21st Century City Personnel<a href="index.html#st-century-city-personnel" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Michael D. M. Bader, Director</li>
+<li>Mac McComas, Senior Program Manager</li>
+<li>Alexi Williams, 21st Century Cities Graduate Fellow</li>
+<li>Marin Beal, 21st Century Cities Graduate Fellow</li>
+<li>Leslie Carson, 21st Century Cities Graduate Fellow</li>
+</ul>
+</div>
+<div id="community-collaboration-committee" class="section level3 hasAnchor" number="1.4.2">
+<h3><span class="header-section-number">1.4.2</span> Community Collaboration Committee<a href="index.html#community-collaboration-committee" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li>Momen Abukhdeir</li>
+<li>Seema Iyer</li>
+<li>Dexter Locke</li>
+<li>Ashiah Parker</li>
+<li>Joy Roberts</li>
+<li>Robin Truiett-Theodorson</li>
+</ul>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+<a href="methodology.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": null,
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection",
+    "scroll_highlight": true
+  }
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
