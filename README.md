@@ -64,3 +64,10 @@ bassvy <- svydesign(~1, weights = ~bas23_svy_fwgt, data = bas23)
 Other statistical packages such as Stata, SAS, SPSS, or Python will require different methods ([examples][] for applying survey weights using other software packages are available from the Office of Advanced Research Computing at UCLA). You should view the documentation for commands in those packages to apply survey weights. 
 
 [examples]: https://stats.oarc.ucla.edu/other/mult-pkg/faq/faq-choosing-the-correct-analysis-for-various-survey-designs/
+
+
+
+-------------------------
+& "C:\Program Files\R\R-4.6.0\bin\Rscript.exe" crosstab_health_by_race.R
+-------------------------
+& "C:\Program Files\R\R-4.6.0\bin\Rscript.exe" -e "shiny::runApp(launch.browser=TRUE)"
